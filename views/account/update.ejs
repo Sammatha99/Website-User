@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <% include ./../element/head_html %>
+  <title>dang-ky</title>
+
+</head>
+
+<body class="bg-gradient-primary">
+
+  <div class="container">
+
+    <div class="card o-hidden border-0 shadow-lg my-5">
+      <div class="card-body p-0">
+        <!-- Nested Row within Card Body -->
+        <div class="row">
+          <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+          <div class="col-lg-7">
+            <div class="p-5">
+              <div class="text-center">
+                <h1 class="h4 text-gray-900 mb-4">Cập nhập lại thông tin tài khoản </h1>
+              </div>
+
+              <form role="form">
+                    <div class="box-body">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">địa chỉ email </label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputuser">tên đăng nhập mới</label>
+                        <input type="email" class="form-control" id="exampleInputuser" placeholder="tên đăng nhập">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">mật khẩu mới</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="mật khẩu">
+                    </div>
+                    <div class="form-group">
+                         <label for="exampleInputsdt">số điện thoại</label>
+                        <input type="email" class="form-control" id="exampleInputsdt" placeholder="sđt ">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputdate">ngày sinh</label>
+                        <input type="email" class="form-control" id="exampleInputdate" placeholder="dd/mm/yyyy ">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputadres">địa chỉ</label>
+                        <input type="email" class="form-control" id="exampleInputadres" placeholder="địa chỉ">
+                    </div>    
+                    </div>
+
+                    <a href="/" class="btn btn-google btn-user btn-block">
+                        <i class="fab fa-fw"></i> xác nhận
+                    </a>
+
+                    <a href="/" class="btn btn-facebook btn-user btn-block">
+                        <i class="fab fa-fw"></i> hủy bỏ
+                    </a>
+                 </form>
+
+              <hr>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <% include ./../element/script_html %>
+</body>
+
+</html>

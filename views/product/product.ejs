@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <% include ./../element/head_html %>
+  <title>danh-sach-hang-hoa</title>
+
+  <style>
+    ol.c {
+        list-style-type: upper-roman;
+    }
+  </style>
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar include -->
+    <% include ./../element/menu %>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar include -->
+        <% include ./../element/header %>
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <h1 class="h3 mb-2 text-gray-800">THÔNG TIN SẢN PHẨM</h1>
+          <p class="mb-4">thông tin chi tiết loại sản phẩm này</p>
+
+          <!-- DataTales Example -->
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Tên sản phẩm</h6>
+            </div>
+            <div class="card-body">
+                 <div class="card-body">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead>
+                                <tr>
+                                <th>THÔNG TIN</th>
+                                <th>SẢN PHẨM  </th>
+                                </tr>
+                             </thead>
+                             <tbody>
+                                 <tr>
+                                 <td>danh mục</td>
+                                 <td> loại sản phẩm: điện tử, thời trang, game, vouvher .....</td>
+                                 </tr>
+                                 <tr>
+                                <td>Thương hiệu</td>
+                                 <td>thương hiệu của sản phẩm: samsung, channel ,....</td>
+                                 </tr>
+                                 <tr>
+                                 <td>kho hàng</td>
+                                <td>Số lượng còn trong kho :188</td>
+                                </tr>    
+                                <tr>
+                                <td>gửi từ</td>
+                                <td> Mỹ</td>
+                                </tr>    
+                                <tr>
+                                <td>mô tả sản phẩm</td>
+                                <td>
+                                    <ol class="c">
+                                        <li>phân loại:</li>
+                                        <li>hướng dẫn sử dụng:</li>
+                                        <li>HSD:</li>
+                                    </ol>
+                                </td>
+                                </tr>                      
+                            </tbody>
+                        </table>
+                </div>
+        </div>
+        
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer include -->
+      <% include ./../element/Footer %>
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Logout Modal-->
+  <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+          <a class="btn btn-primary" href="login.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- script include -->
+  <% include ./../element/script_html %>
+
+
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+
+  <% include ./../element/head_html %>
+  <title>danh-sach-hang-hoa</title>
+  <!-- Custom styles for this page -->
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/AdminLTE.min.css">
+    
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar include -->
+    <% include ./../element/menu %>
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar include -->
+        <% include ./../element/header %>
+        
+                <!-- Main content -->
+    <div class="container-fluid ">
+                  <!-- Page Heading -->
+                  <h1 class="h3 mb-2 text-gray-800">LỊCH SỬ MUA HÀNG VÀ TRẠNG THÁI ĐƠN HÀNG</h1>
+                  <p class="mb-4">danh sách các hàng hóa từng được giao theo ngày tháng năm, trạng thái đơn hàng hiện tại nếu có</a>.</p>
+        
+<!-- ví dụ đơn hàng 1 -->
+            <div class="card shadow mb-4 p-4 border-left-primary ">
+            <!-- title row -->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card-header py-3">
+                <h2 class="page-header m-0 font-weight-bold text-primary">
+                  <i class="fas fa-globe"></i> ĐÃ GIAO 
+                  <small class="pull-right">Ngày đặt: 2/10/2014</small>
+                </h2></div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- info row -->
+
+              <div class="col-md-4 ">
+                <b>hóa đơn #007612</b><br>
+                <b>mã đơn ID:</b> 4F3S8J<br>
+                <b>ngày thanh toán:</b> 2/22/2014<br>
+                <b> mã tài khoản</b>:</b> 968-34567
+              </div>
+
+            <!-- /info row -->
+
+            <!-- Table row -->
+            <div class="card-body">
+              <div class="table-responsive p-4">
+                    <table class="table table-bordered" width="100%" cellspacing="0">
+                  <thead>
+                  <tr>
+                    <th>SL</th>
+                    <th>tên sản phẩm</th>
+                    <th>Serial #</th>
+                    <th>mô tả</th>
+                    <th>tổng tiền</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Call of Duty</td>
+                    <td>455-981-221</td>
+                    <td>El snort testosterone trophy driving gloves handsome</td>
+                    <td>$64.50</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Need for Speed IV</td>
+                    <td>247-925-726</td>
+                    <td>Wes Anderson umami biodiesel</td>
+                    <td>$50.00</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Monsters DVD</td>
+                    <td>735-845-642</td>
+                    <td>Terry Richardson helvetica tousled street art master</td>
+                    <td>$10.70</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>Grown Ups Blue Ray</td>
+                    <td>422-568-642</td>
+                    <td>Tousled lomo letterpress</td>
+                    <td>$25.99</td>
+                  </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+      
+            <div class="row">
+              <!-- accepted payments column -->
+              <div class="col-6">
+                <p class="lead">hình thức thanh toán</p>
+                <img src="img/credit/visa.png" alt="Visa">
+      
+              </div>
+              <!-- /.col -->
+              <div class="col-6">
+                <p class="lead">tổng chi phí đến ngày 2/22/2014</p>
+      
+                <div class="table-responsive">
+                  <table class="table">
+                    <tr>
+                      <th style="width:50%">tổng cộng:</th>
+                      <td>$250.30</td>
+                    </tr>
+                    <tr>
+                      <th>Thuế (9.3%)</th>
+                      <td>$10.34</td>
+                    </tr>
+                    <tr>
+                      <th>phí ship:</th>
+                      <td>$5.80</td>
+                    </tr>
+                    <tr>
+                      <th>Tổng:</th>
+                      <td>$265.24</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <!-- /.col -->
+            </div>
+            <!-- /.row -->
+      
+            <!-- this row will not appear when printing -->
+            <div class="row no-print">
+              <div class="col-12">
+                <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+                <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+                  <i class="fas fa-download"></i> Generate PDF
+                </button>
+              </div>
+            </div>
+          <!-- /.content -->
+            </div>
+
+<!-- ví dụ đơn hàng 2 -->
+<div class="card shadow mb-4 p-4 border-left-primary">
+        <!-- title row -->
+        <div class="row">
+          <div class="col-md-12">
+              <div class="card-header py-3">
+                  <h2 class="page-header m-0 font-weight-bold text-primary">
+                    <i class="fas fa-globe"></i> ĐÃ GIAO 
+                    <small class="pull-right">Ngày đặt: 2/10/2014</small>
+                  </h2></div>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- info row -->
+
+          <div class="col-md-4 ">
+            <b>hóa đơn #007612</b><br>
+            <b>mã đơn ID:</b> 4F3S8J<br>
+            <b>ngày thanh toán:</b> 2/22/2014<br>
+            <b> mã tài khoản</b>:</b> 968-34567
+          </div>
+
+        <!-- /info row -->
+
+        <!-- Table row -->
+        <div class="card-body">
+          <div class="table-responsive p-4">
+                <table class="table table-bordered" width="100%" cellspacing="0">
+              <thead>
+              <tr>
+                <th>SL</th>
+                <th>tên sản phẩm</th>
+                <th>Serial #</th>
+                <th>mô tả</th>
+                <th>tổng tiền</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>1</td>
+                <td>Call of Duty</td>
+                <td>455-981-221</td>
+                <td>El snort testosterone trophy driving gloves handsome</td>
+                <td>$64.50</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Need for Speed IV</td>
+                <td>247-925-726</td>
+                <td>Wes Anderson umami biodiesel</td>
+                <td>$50.00</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Monsters DVD</td>
+                <td>735-845-642</td>
+                <td>Terry Richardson helvetica tousled street art master</td>
+                <td>$10.70</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Grown Ups Blue Ray</td>
+                <td>422-568-642</td>
+                <td>Tousled lomo letterpress</td>
+                <td>$25.99</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+  
+        <div class="row">
+          <!-- accepted payments column -->
+          <div class="col-6">
+            <p class="lead">hình thức thanh toán</p>
+            <img src="img/credit/visa.png" alt="Visa">
+  
+          </div>
+          <!-- /.col -->
+          <div class="col-6">
+            <p class="lead">tổng chi phí đến ngày 2/22/2014</p>
+  
+            <div class="table-responsive">
+              <table class="table">
+                <tr>
+                  <th style="width:50%">tổng cộng:</th>
+                  <td>$250.30</td>
+                </tr>
+                <tr>
+                  <th>Thuế (9.3%)</th>
+                  <td>$10.34</td>
+                </tr>
+                <tr>
+                  <th>phí ship:</th>
+                  <td>$5.80</td>
+                </tr>
+                <tr>
+                  <th>Tổng:</th>
+                  <td>$265.24</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+  
+        <!-- this row will not appear when printing -->
+        <div class="row no-print">
+          <div class="col-12">
+            <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+            <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+              <i class="fas fa-download"></i> Generate PDF
+            </button>
+          </div>
+        </div>
+      <!-- /.content -->
+        </div>
+
+<!-- ví dụ đơn hàng 3 -->
+<div class="card shadow mb-4 p-4 border-left-primary">
+        <!-- title row -->
+        <div class="row">
+          <div class="col-md-12">
+              <div class="card-header py-3">
+                  <h2 class="page-header m-0 font-weight-bold text-primary">
+                    <i class="fas fa-globe"></i> TRÊN ĐƯỜNG GIAO
+                    <small class="pull-right">Ngày đặt: 2/10/2014</small>
+                  </h2></div>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- info row -->
+
+          <div class="col-md-4 ">
+            <b>hóa đơn #007612</b><br>
+            <b>mã đơn ID:</b> 4F3S8J<br>
+            <b>ngày thanh toán:</b>DD/MM/YYYY<br>
+            <b> mã tài khoản</b>:</b> 968-34567
+          </div>
+
+        <!-- /info row -->
+
+        <!-- Table row -->
+        <div class="card-body">
+          <div class="table-responsive p-4">
+                <table class="table table-bordered" width="100%" cellspacing="0">
+              <thead>
+              <tr>
+                <th>SL</th>
+                <th>tên sản phẩm</th>
+                <th>Serial #</th>
+                <th>mô tả</th>
+                <th>tổng tiền</th>
+              </tr>
+              </thead>
+              <tbody>
+              <tr>
+                <td>1</td>
+                <td>Call of Duty</td>
+                <td>455-981-221</td>
+                <td>El snort testosterone trophy driving gloves handsome</td>
+                <td>$64.50</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Need for Speed IV</td>
+                <td>247-925-726</td>
+                <td>Wes Anderson umami biodiesel</td>
+                <td>$50.00</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Monsters DVD</td>
+                <td>735-845-642</td>
+                <td>Terry Richardson helvetica tousled street art master</td>
+                <td>$10.70</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Grown Ups Blue Ray</td>
+                <td>422-568-642</td>
+                <td>Tousled lomo letterpress</td>
+                <td>$25.99</td>
+              </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+  
+        <div class="row">
+          <!-- accepted payments column -->
+          <div class="col-6">
+            <p class="lead">hình thức thanh toán</p>
+            <img src="img/credit/visa.png" alt="Visa">
+  
+            <p class="text-muted well well-sm no-shadow" style="margin-top: 10px;">
+              Etsy doostang zoodles disqus groupon greplin oooj voxy zoodles, weebly ning heekya handango imeem plugg
+              dopplr jibjab, movity jajah plickers sifteo edmodo ifttt zimbra.
+            </p>
+          </div>
+          <!-- /.col -->
+          <div class="col-6">
+            <p class="lead">tổng chi phí đến ngày DD/MM/YYYY</p>
+  
+            <div class="table-responsive">
+              <table class="table">
+                <tr>
+                  <th style="width:50%">tổng cộng:</th>
+                  <td>$250.30</td>
+                </tr>
+                <tr>
+                  <th>Thuế (9.3%)</th>
+                  <td>$10.34</td>
+                </tr>
+                <tr>
+                  <th>phí ship:</th>
+                  <td>$5.80</td>
+                </tr>
+                <tr>
+                  <th>Tổng:</th>
+                  <td>$265.24</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+  
+        <!-- this row will not appear when printing -->
+        <div class="row no-print">
+          <div class="col-12">
+            <a href="invoice-print.html" target="_blank" class="btn btn-default"><i class="fas fa-print"></i> Print</a>
+            <button type="button" class="btn btn-success pull-right"><i class="fas fa-credit-card"></i> Submit Payment
+            </button>
+            <button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
+              <i class="fas fa-download"></i> Generate PDF
+            </button>
+          </div>
+        </div>
+      <!-- /.content -->
+        </div>
+    </div>
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer include -->
+    <% include ./../element/Footer %>
+
+  </div>
+  <!-- End of Content Wrapper -->
+</div>
+<!-- End of Page Wrapper -->
+
+<!-- Scroll to Top Button-->
+<a class="scroll-to-top rounded" href="#page-top">
+  <i class="fas fa-angle-up"></i>
+</a>
+
+<!-- Logout Modal-->
+<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+        <a class="btn btn-primary" href="login.html">Logout</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- script include -->
+<% include ./../element/script_html %>
+
+<!-- Page level plugins -->
+<script src="vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>
